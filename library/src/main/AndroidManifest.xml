@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.almeros.android.multitouch">
+<manifest package="com.almeros.android.multitouch"
+          xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <uses-configuration android:reqTouchScreen="finger" />
+  <uses-configuration android:reqTouchScreen="finger"/>
 
-    <uses-feature
-        android:name="android.hardware.touchscreen"
-        android:required="true" />
-    <uses-feature
-        android:name="android.hardware.touchscreen.multitouch"
-        android:required="true" />
-    
+  <uses-feature
+    android:name="android.hardware.touchscreen"
+    android:required="true"/>
+  <uses-feature
+    android:name="android.hardware.touchscreen.multitouch"
+    android:required="true"/>
 
-    <application/>
+
+  <application/>
 
 </manifest>
