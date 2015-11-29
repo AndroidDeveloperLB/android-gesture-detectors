@@ -13,5 +13,5 @@ The changes are that it includes only the library, it has a tiny fix for touches
 	}
 	
     dependencies {
-	        compile 'com.github.AndroidDeveloperLB:android-gesture-detectors:3cdeab048d'
+	           compile 'com.github.AndroidDeveloperLB:android-gesture-detectors:1'
 	}
